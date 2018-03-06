@@ -1,4 +1,15 @@
-angular.module("app", []).controller("personController", function($scope) {
-    $scope.firstName = "John";
-    $scope.lastName = "Doe";
+angular.module("app", []).controller("Test1", function($scope) {
+    var vm = $scope;
+
+    vm.Save = _save;
+
+    activate(){
+
+    }
+
+    function save(){
+
+    }
+
+    activate();
 });
